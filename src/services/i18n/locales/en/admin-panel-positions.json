@@ -1,0 +1,33 @@
+{
+  "title": "Positions",
+  "table": {
+    "name": "Name",
+    "status": "Status",
+    "empty": "No positions yet. Add one to get started.",
+    "staff": "Staff",
+    "noStaff": "No staff yet"
+  },
+  "status": {
+    "active": "Active",
+    "archived": "Archived"
+  },
+  "filter": {
+    "showArchived": "Show archived"
+  },
+  "actions": {
+    "edit": "Edit",
+    "create": "Add Position",
+    "archive": "Archive",
+    "restore": "Restore"
+  },
+  "confirm": {
+    "archive": {
+      "title": "Archive Position",
+      "message": "Archived positions are hidden when building schedules and assigning staff. Existing shifts and past schedules keep it. You can restore it at any time."
+    },
+    "restore": {
+      "title": "Restore Position",
+      "message": "Make this position available again for schedules and staff?"
+    }
+  }
+}

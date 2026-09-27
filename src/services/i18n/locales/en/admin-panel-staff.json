@@ -1,0 +1,31 @@
+{
+  "title": "Staff",
+  "table": {
+    "column1": "Name",
+    "column2": "Email",
+    "column3": "Phone",
+    "column4": "Positions"
+  },
+  "status": {
+    "archived": "Archived"
+  },
+  "filter": {
+    "showArchived": "Show archived"
+  },
+  "actions": {
+    "edit": "Edit",
+    "archive": "Archive",
+    "restore": "Restore",
+    "create": "Add Staff"
+  },
+  "confirm": {
+    "archive": {
+      "title": "Archive Staff Member",
+      "message": "Archived staff are hidden when building schedules. Their past shifts and published schedules keep their name. You can restore them at any time."
+    },
+    "restore": {
+      "title": "Restore Staff Member",
+      "message": "Make this staff member available again for schedules?"
+    }
+  }
+}

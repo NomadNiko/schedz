@@ -1,0 +1,113 @@
+{
+  "title": "Schedule",
+  "loadError": "The schedule couldn't be loaded. Check your connection and refresh.",
+  "week": {
+    "previous": "Previous week",
+    "next": "Next week",
+    "thisWeek": "This week"
+  },
+  "status": {
+    "draft": "Draft",
+    "published": "Published",
+    "changed": "Unpublished changes"
+  },
+  "notStarted": {
+    "title": "This week hasn't been started",
+    "cloneMessage": "Copy a previous week's published schedule onto this week, then adjust it:",
+    "shiftCount_one": "{{count}} shift",
+    "shiftCount_other": "{{count}} shifts",
+    "loadMore": "Show earlier weeks",
+    "clone": "Copy selected week",
+    "or": "or",
+    "noPublished": "There are no published weeks to copy yet.",
+    "startBlank": "Start blank"
+  },
+  "actions": {
+    "publish": "Publish",
+    "republish": "Republish",
+    "discard": "Discard changes"
+  },
+  "alerts": {
+    "published": "Week published. Staff can now see it on the schedule page.",
+    "discarded": "Changes discarded. The week matches the published schedule again.",
+    "actionFailed": "That didn't work. Please try again."
+  },
+  "popover": {
+    "edit": "Edit",
+    "duplicate": "Duplicate",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "duplicateConfirm": "Duplicate this shift as an open shift?",
+    "deleteConfirm": "Delete this shift?"
+  },
+  "palette": {
+    "hint": "Drag a position onto a day, or tap a position and then tap a day. Press and hold a shift to move it to another day.",
+    "tapDay": "Now tap a day to add this position. Tap the position again to stop.",
+    "empty": "No positions yet. Add them under Admin → Positions."
+  },
+  "grid": {
+    "add": "Add"
+  },
+  "shift": {
+    "open": "Open",
+    "nextDay": "(next day)",
+    "nextDayShort": "+1",
+    "unknownPosition": "Unknown position"
+  },
+  "dialog": {
+    "createTitle": "Add shift",
+    "editTitle": "Edit shift",
+    "position": "Position",
+    "day": "Day",
+    "start": "Start",
+    "end": "End",
+    "endsNextDay": "Ends the next day",
+    "note": "Note (optional)",
+    "overlapWarning": "This person already has a shift that overlaps this one.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "staff": {
+      "label": "Staff",
+      "placeholder": "Open (no one assigned)",
+      "suggested": "Suggested",
+      "all": "All staff",
+      "archived": "archived",
+      "none": "No staff found"
+    }
+  },
+  "confirm": {
+    "delete": {
+      "title": "Delete shift",
+      "message": "Remove this shift from the week?"
+    },
+    "publish": {
+      "title": "Publish this week?",
+      "message": "Staff will be able to see this week on the schedule page."
+    },
+    "republish": {
+      "title": "Republish this week?",
+      "message": "The schedule page will be updated to show your changes."
+    },
+    "publishEmpty": {
+      "message": "This week has no shifts. Publishing it will show an empty week on the schedule page."
+    },
+    "discard": {
+      "title": "Discard changes?",
+      "message": "Your unpublished changes to this week will be lost, and it will go back to what was last published."
+    }
+  },
+  "errors": {
+    "generic": "The shift couldn't be saved. Please try again.",
+    "positionRequired": "Choose a position.",
+    "sameAsStart": "The end time must be different from the start time.",
+    "positionArchived": "That position has been archived. Choose another.",
+    "positionNotExists": "That position no longer exists. Choose another.",
+    "staffArchived": "That staff member has been archived. Choose someone else.",
+    "staffNotExists": "That staff member no longer exists. Choose someone else.",
+    "weekNotCreated": "This week hasn't been started yet.",
+    "differentWeek": "A shift can only be moved to another day in the same week.",
+    "dateInvalid": "That date isn't valid.",
+    "timeInvalid": "That time isn't valid."
+  }
+}

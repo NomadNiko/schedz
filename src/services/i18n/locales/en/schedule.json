@@ -1,0 +1,22 @@
+{
+  "title": "Staff Schedule",
+  "pin": {
+    "prompt": "Enter the schedule PIN to view the staff schedule.",
+    "label": "PIN",
+    "submit": "View schedule",
+    "wrong": "That PIN isn't right. Please try again.",
+    "tooManyAttempts": "Too many wrong attempts. Please wait 15 minutes and try again.",
+    "changed": "The schedule PIN has changed. Please enter the new PIN."
+  },
+  "previousWeek": "Previous week",
+  "nextWeek": "Next week",
+  "showShiftsFor": "Show shifts for",
+  "everyone": "Everyone",
+  "youThisWeek": "You (no shifts this week)",
+  "noShifts": "No shifts",
+  "dayOff": "Off",
+  "open": "Open",
+  "nextDay": "(next day)",
+  "nothingPublished": "No schedules have been published yet.",
+  "loadError": "The schedule couldn't be loaded. Check your connection and refresh."
+}

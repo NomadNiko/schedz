@@ -1,0 +1,46 @@
+{
+  "title": "Add staff member",
+  "actions": {
+    "submit": "Save",
+    "cancel": "Cancel"
+  },
+  "inputs": {
+    "name": {
+      "label": "Name",
+      "validation": {
+        "required": "Name is required",
+        "max": "Name must be 100 characters or fewer"
+      }
+    },
+    "email": {
+      "label": "Email (optional)",
+      "validation": {
+        "invalid": "Email is invalid"
+      }
+    },
+    "phone": {
+      "label": "Phone (optional)",
+      "validation": {
+        "invalid": "Phone may only contain digits, spaces and + ( ) - .",
+        "server": {
+          "phoneInvalid": "Phone may only contain digits, spaces and + ( ) - ."
+        }
+      }
+    },
+    "positionIds": {
+      "label": "Positions",
+      "empty": "No positions yet. Add them under Admin → Positions.",
+      "archived": "archived",
+      "validation": {
+        "server": {
+          "positionNotExists": "One of the selected positions no longer exists"
+        }
+      }
+    }
+  },
+  "alerts": {
+    "staff": {
+      "success": "Staff member has been created successfully"
+    }
+  }
+}

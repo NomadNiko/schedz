@@ -1,0 +1,38 @@
+{
+  "title": "Edit position",
+  "archivedNotice": "This position is archived. Restore it from the Positions list to use it in new schedules.",
+  "actions": {
+    "submit": "Save",
+    "cancel": "Cancel"
+  },
+  "inputs": {
+    "name": {
+      "label": "Name",
+      "validation": {
+        "required": "Name is required",
+        "max": "Name must be 50 characters or fewer",
+        "server": {
+          "nameAlreadyExists": "A position with this name already exists"
+        }
+      }
+    },
+    "color": {
+      "label": "Colour",
+      "validation": {
+        "required": "Colour is required",
+        "server": {
+          "colorInvalid": "Colour is invalid"
+        }
+      }
+    }
+  },
+  "alerts": {
+    "position": {
+      "success": "Position has been updated successfully"
+    }
+  },
+  "staffWithPosition": {
+    "title": "Staff with this position",
+    "empty": "No staff have this position yet. Add it from a staff member's page."
+  }
+}
